@@ -1,0 +1,9 @@
+1- what is the difference between i2= grayslice(i1,128);figure , imshow(i2,gray(128)); and  i3= grayslice(i1,128);figure , imshow(i3);?
+i2= grayslice(i1,128);figure , imshow(i2,gray(128)); IS MORE brightness than 
+i3= grayslice(i1,128);figure , imshow(i3);
+--------------
+a- 1024 * 1024 + 32= 1048608 bytes
+b- 1024 * 1024 + 32= 1048608 bytes , no change occure
+//b- (1024 * 1024)*2 + 32= 2097184 bytes
+c-(1024 * 1024)/2 + 32= 524320 bytes
+d- 128 gray level
